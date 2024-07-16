@@ -47,4 +47,5 @@ http://docker-host-ip:82
 Default Admin User:
 
 Email:    admin@example.com
+
 Password: changeme
