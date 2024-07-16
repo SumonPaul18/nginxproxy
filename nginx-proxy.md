@@ -1,8 +1,8 @@
 ### Run Nginx Proxy Manager in NFS on Docker
 
 ####
-    mkdir -p /root/nginx && cd /root/nginx
-    cat <<EOF | sudo tee /root/nginx/docker-compose.yml
+    mkdir -p /root/nginxproxy && cd /root/nginxproxy
+    cat <<EOF | sudo tee /root/nginxproxy/docker-compose.yml
     version: '3.8'
     services:
       app:
