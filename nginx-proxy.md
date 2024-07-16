@@ -37,3 +37,14 @@
     docker compose ps
 ####
     docker ps
+
+Log in to the Admin UI
+
+When your docker container is running, connect to it on port 82 for the admin interface.
+
+http://docker-host-ip:82
+
+Default Admin User:
+
+Email:    admin@example.com
+Password: changeme
